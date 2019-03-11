@@ -1,8 +1,9 @@
 // custom scripts
 
 module.exports = {
-  path: "/build",
-  secret: "wh.rat.red",
+  path: "/",
+  secret: "159357",
+  events: ["push"],
   hooks: [
     {
       repository: "docs",
